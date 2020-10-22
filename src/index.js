@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Signin from './components/Signin';
+import Signin from './pages/Signin';
 
 ReactDOM.render(
   <React.StrictMode>
