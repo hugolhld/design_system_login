@@ -2,17 +2,16 @@ import styled from 'styled-components'
 import theme from '../../assets/styles/theme'
 
 const Title = styled.h2`
-    font-family:title-black;
-    padding: ${theme.spaceScale.scale[0]} ${theme.spaceScale.scale[0]};
+    font-family: title-medium;
     font-size:${theme.fontScale.scale[5]};
-    color:${theme.colors.black[0]};
+    color:${theme.colors.black[1]}; 
 
-    ${props => props.black ? `
-    font-family: title-black;
+    ${props => props.large ? `
+    margin-bottom: ${theme.spaceScale.scale[4]};
     ` : `` }
 
-    ${props => props.medium ? `
-    font-family: title-medium;
+    ${props => props.small ? `
+    margin-bottom: ${theme.spaceScale.scale[3]};
     ` : `` }
 `
 

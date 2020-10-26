@@ -26,10 +26,6 @@ const theme = {
             name:"NotoSans-Regular",
             format:"ttf"
         },{
-            style:"title-black",
-            name:"Lato-Black",
-            format:"ttf"
-        },{
             style:"title-medium",
             name:"Lato-Medium",
             format:"ttf"
@@ -56,7 +52,7 @@ const theme = {
     ],
     fontScale:{
         base:2,
-        start:14,
+        start:12,
         scale:[]
     },
     spaceScale:{

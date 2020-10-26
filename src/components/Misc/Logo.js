@@ -3,7 +3,7 @@ import theme from '../../assets/styles/theme'
 import styled from 'styled-components'
 
 let StyledLogo = styled.img`
-    margin: ${theme.spaceScale.scale[0]} ${theme.spaceScale.scale[0]};
+    margin: ${theme.spaceScale.scale[7]} 0;
 `
 
 function Logo() {

@@ -2,11 +2,16 @@ import styled from 'styled-components'
 import theme from '../../assets/styles/theme'
 
 const Modal = styled.div`
-    width:480px;
-    background-color:${theme.misc.modalColor};
-    border-radius:${theme.misc.borderRadius};
-    padding: ${theme.spaceScale.scale[3]} ${theme.spaceScale.scale[3]};
-    
+
+    ${props => props.large ? `
+        width: 500px;
+        margin-bottom: ${theme.spaceScale.scale[5]};
+    ` : `` }
+
+    ${props => props.small ? `
+        width: 350px;
+        margin-bottom: ${theme.spaceScale.scale[4]};
+    ` : `` }
 `
 
 export default Modal
