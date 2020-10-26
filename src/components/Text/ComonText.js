@@ -2,9 +2,17 @@ import styled from 'styled-components'
 import theme from '../../assets/styles/theme'
 
 const ComonText = styled.p`
-    font-family:comonText;
-    padding: ${theme.spaceScale.scale[0]} ${theme.spaceScale.scale[0]};
-    font-size:${theme.fontScale.scale[1]};
+    font-family : comonText;
+    font-size : ${theme.fontScale.scale[1]};
+
+    ${props => props.large ? `
+    margin-bottom : ${theme.spaceScale.scale[3]};
+    ` : `` }
+
+    ${props => props.small ? `
+    margin-bottom : ${theme.spaceScale.scale[2]};
+    ` : `` }
+
 `
 
 export default ComonText

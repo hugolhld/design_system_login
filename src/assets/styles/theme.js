@@ -1,4 +1,5 @@
 import logo from "../images/logo.svg"
+import eyeIcon from "../images/closed_eye.svg"
 
 const theme = {
     colors:{
@@ -67,6 +68,7 @@ const theme = {
     },
     misc:{
         logo:logo,
+        eyeIcon:eyeIcon,
         borderRadius:"10px",
         backgroundColor:"#F2F2F2",
         modalColor:'#FFFFFF',
