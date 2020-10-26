@@ -13,5 +13,5 @@ for (let font of theme.fonts){
     `
 }
 const GlobalStyle = createGlobalStyle`${fonts}`
-
+console.log(fonts)
 export default GlobalStyle

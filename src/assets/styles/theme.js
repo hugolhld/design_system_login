@@ -24,8 +24,12 @@ const theme = {
             name:"NotoSans-Regular",
             format:"ttf"
         },{
-            style:"title",
+            style:"title-black",
             name:"Lato-Black",
+            format:"ttf"
+        },{
+            style:"title-medium",
+            name:"Lato-Medium",
             format:"ttf"
         },{
             style:"subtitle",
@@ -58,6 +62,11 @@ const theme = {
         start:8,
         scale:[]
     },
+    lineHeightScale:{
+        base:0.1,
+        start:1.1,
+        scale:[]
+    },
     misc:{
         logo:logo,
         borderRadius:"10px",
@@ -78,6 +87,12 @@ scaleIterator = theme.spaceScale.start
 for(let i = 0; i < 10; i++){
     theme.spaceScale.scale.push(scaleIterator+"px")
     scaleIterator+=theme.spaceScale.base
+}
+
+scaleIterator = theme.lineHeightScale.start
+for(let i = 0; i < 10; i++){
+    theme.lineHeightScale.scale.push(scaleIterator)
+    scaleIterator+=theme.lineHeightScale.base
 }
 
 

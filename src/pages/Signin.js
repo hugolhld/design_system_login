@@ -13,6 +13,9 @@ function Signin() {
         <Wrapper>
             <Modal>
                 <Logo></Logo>
+                <Title black>Connection</Title>
+                <Title medium>Connection</Title>
+                <Title subtitle>Connection</Title>
                 <Subtitle>Connexion</Subtitle>
                 <ComonText>Veuillez entrez vos informations</ComonText>
                 <InputTxt type="text" placeholder="Adresse e-mail"></InputTxt>

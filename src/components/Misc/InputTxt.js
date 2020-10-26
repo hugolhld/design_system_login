@@ -6,6 +6,9 @@ const InputTxt = styled.input`
     border:none;
     padding:${theme.spaceScale.scale[0]} ${theme.spaceScale.scale[0]};
     border-bottom:solid 2px ${theme.colors.black[2]};
+    &:focus{
+        outline: none
+    }
 `
 
 export default InputTxt
