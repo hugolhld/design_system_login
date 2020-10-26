@@ -4,7 +4,9 @@ const theme = {
     colors:{
         black:[
             "#000000",
+            "#333333",
             "#5C5C5C",
+            "#999999",
             "#B7B7B7"
         ],
         blue:[
