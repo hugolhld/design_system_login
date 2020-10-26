@@ -1,3 +1,5 @@
+import logo from "../images/logo.svg"
+
 const theme = {
     colors:{
         black:[
@@ -16,6 +18,32 @@ const theme = {
             "#FEEFEC"
         ]
     },
+    fonts:[
+        {
+            style:"comonText",
+            name:"NotoSans-Regular",
+            format:"ttf"
+        },{
+            style:"title",
+            name:"Lato-Black",
+            format:"ttf"
+        },
+        {
+            style:"input",
+            name:"NotoSans-Regular",
+            format:"ttf"
+        },
+        {
+            style:"button",
+            name:"NotoSans-Regular",
+            format:"ttf"
+        },
+        {
+            style:"link",
+            name:"NotoSans-Regular",
+            format:"ttf"
+        },
+    ],
     fontScale:{
         base:2,
         start:14,
@@ -27,8 +55,12 @@ const theme = {
         scale:[]
     },
     misc:{
+        logo:logo,
         borderRadius:"10px",
-        backgroundColor:"#ffffff"
+        backgroundColor:"#F2F2F2",
+        modalColor:'#FFFFFF',
+        textButtonColor:"#ffffff",
+        hoverTransitionDelay:"0.2s"
     }
 }
 
@@ -44,6 +76,5 @@ for(let i = 0; i < 10; i++){
     scaleIterator+=theme.spaceScale.base
 }
 
-console.log(theme)
 
 export default theme
