@@ -27,6 +27,10 @@ const theme = {
             style:"title",
             name:"Lato-Black",
             format:"ttf"
+        },{
+            style:"subtitle",
+            name:"Lato-Regular",
+            format:"ttf"
         },
         {
             style:"input",
