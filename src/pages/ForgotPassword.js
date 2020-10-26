@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Recover() {
+function ForgotPassword() {
     return (
         <div>
             

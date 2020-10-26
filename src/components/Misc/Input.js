@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import theme from '../../assets/styles/theme'
 
-const InputTxt = styled.input`
+const Input = styled.input`
     display:block;
     width:100%;
     border:none;
@@ -12,6 +12,10 @@ const InputTxt = styled.input`
         outline: none
     }
 
+    ${props => props.password ? `
+    margin-bottom:${theme.spaceScale.scale[1]};
+    ` : `` }
+
     ${props => props.large ? `
     margin-bottom:${theme.spaceScale.scale[3]};
     ` : `` }
@@ -21,4 +25,4 @@ const InputTxt = styled.input`
     ` : `` }
 `
 
-export default InputTxt
+export default Input
