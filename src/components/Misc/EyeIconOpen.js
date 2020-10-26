@@ -7,10 +7,10 @@ let StyledIcon = styled.img`
     text-align: right;
 `
 
-function EyeIcon() {
+function EyeIconOpen() {
     return (
-        <StyledIcon src={theme.misc.eyeIcon} alt="Eye icon"></StyledIcon>
+        <StyledIcon src={theme.misc.eyeIconOpen} alt="Eye icon open"></StyledIcon>
     )
 }
 
-export default EyeIcon
+export default EyeIconOpen

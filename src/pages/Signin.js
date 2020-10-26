@@ -6,7 +6,9 @@ import Input from '../components/Misc/Input'
 import Button from '../components/Text/Button'
 import Link from '../components/Text/Link'
 import Logo from '../components/Misc/Logo'
-import EyeIcon from '../components/Misc/EyeIcon'
+import EyeIconClosed from '../components/Misc/EyeIconClosed'
+import EyeIconOpen from '../components/Misc/EyeIconOpen'
+
 
 function SignIn() {
     return (
@@ -15,7 +17,7 @@ function SignIn() {
             <Modal large>
                 <Title large>Connexion</Title>
                 <Input type="text" placeholder="Adresse e-mail" large></Input>
-                <Input type="password" placeholder="Mot de passe" password></Input><EyeIcon></EyeIcon>
+                <Input type="password" placeholder="Mot de passe" password></Input><EyeIconOpen></EyeIconOpen>
                 <Link href="#test" large>Mot de passe oublié ?</Link>
                 <Button href="#test">Se connecter</Button>
             </Modal>
