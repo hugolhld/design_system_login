@@ -9,16 +9,13 @@ const Link = styled.a`
     color : ${theme.colors.black[1]};
     font-size : ${theme.fontScale.scale[0]};
     margin-bottom : 34 px;
+    width : 500px;
+    margin-bottom : ${theme.spaceScale.scale[4]};
 
-    ${ props => props.large ? `
-        width : 500px;
-        margin-bottom : ${theme.spaceScale.scale[4]};
-    ` : `` }
-
-    ${ props => props.small ? `
+    @media (max-width: 550px) {
         width : 350px;
         margin-bottom : ${theme.spaceScale.scale[3]};
-    ` : `` }
+      }
 `
 
 export default Link

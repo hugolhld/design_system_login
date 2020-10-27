@@ -15,6 +15,11 @@ const Button = styled.a`
     padding: ${theme.spaceScale.scale[0]} ${theme.spaceScale.scale[3]};
     margin: 0 auto;
     transition: all ${theme.misc.hoverTransitionDelay};
+    margin-top : ${theme.spaceScale.scale[4]};
+
+    @media (max-width: 550px) {
+        margin-top : ${theme.spaceScale.scale[3]};
+      }
     
     ${props => props.hover ? `
     &:hover{
@@ -22,6 +27,7 @@ const Button = styled.a`
         color:${theme.colors.blue[0]};
         transition: all ${theme.misc.hoverTransitionDelay};
         border:solid 2px ${theme.colors.blue[0]};
+        cursor: pointer;
     }
 
     &:active{
@@ -30,14 +36,6 @@ const Button = styled.a`
         transition: all ${theme.misc.hoverTransitionDelay};
         border:solid 2px ${theme.colors.blue[0]};
     }
-    ` : `` }
-
-    ${props => props.large ? `
-        margin-top : ${theme.spaceScale.scale[4]};
-    ` : `` }
-
-    ${props => props.small ? `
-        margin-top : ${theme.spaceScale.scale[3]};
     ` : `` }
 
     ${props => props.eyeIconOpen ? `

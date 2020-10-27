@@ -1,6 +1,4 @@
-import React,{useEffect} from 'react'
-import theme from '../../assets/styles/theme'
-import '../../assets/js/main'
+import React from 'react'
 
 
 function Footer() {

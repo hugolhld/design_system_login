@@ -34,3 +34,31 @@
     border-bottom: 1px solid #999999 !important;
     border-radius: 0 !important;
 }
+
+.register_success{
+    display: none;
+}
+.register_warning{
+    display: none;
+}
+.register_error{
+    display: none;
+}
+.signin_success{
+    display: none;
+}
+.signin_error{
+    display: none;
+}
+.signin_warning{
+    display: none;
+}
+.forgot_warning{
+    display: none;
+}
+.forgot_success{
+    display: none;
+}
+.forgot_error{
+    display: none;
+}

@@ -7,12 +7,37 @@ import Input from '../components/Misc/Input'
 import InputBirthday from '../components/Misc/InputBirthday'
 import Button from '../components/Text/Button'
 import Logo from '../components/Misc/Logo'
+import Alert from '../components/Text/AlertMessages'
 
 function SignUp() {
+
+    // function checkForm () {
+    //     const inputsText = document.querySelectorAll('.cdLhfg')
+
+    //     for(const text of inputsText)
+    //     {
+    //         if(text.value.length < 4)
+    //         {
+    //             document.querySelector('.register_error').style.display = 'block'
+    //         }
+    //         else if (text.value.length < 6)
+    //         {
+    //             document.querySelector('.register_warning').style.display = 'block'
+    //         }
+    //         else
+    //         {
+    //             document.querySelector('.register_success').style.display = 'block'
+    //         }
+    //     }
+    // }
+
     return (
         <Wrapper>
-            <Logo></Logo>
-            <Modal large>
+            <Logo/>
+            <Modal>
+                <Alert success className="register_success">Test123</Alert>
+                <Alert warning className="register_warning">Test123</Alert>
+                <Alert error className="register_error">Test123</Alert>
                 <Title large>Créer un compte</Title>
                 <Subtitle large first>Identifiants</Subtitle>
                 <Input type="text" placeholder="Entrez votre prénom et nom" large></Input>
@@ -22,7 +47,7 @@ function SignUp() {
                 <Subtitle large>Mot de passe</Subtitle>
                 <Input type="password" placeholder="Entrez votre mot de passe" large></Input>
                 <Input type="password" placeholder="Confirmez votre mot de passe" large></Input>
-                <Button hover href="/" large>S'inscrire</Button>
+                <Button hover href="/" /* onClick={checkForm} */ large>S'inscrire</Button>
             </Modal>
         </Wrapper>
     )

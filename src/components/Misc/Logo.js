@@ -9,7 +9,7 @@ let StyledLogo = styled.img`
 
 function Logo() {
     return (
-        <Link href="/">
+        <Link to="/">
             <StyledLogo src={theme.misc.logo} alt="Logo"></StyledLogo>
         </Link>
     )

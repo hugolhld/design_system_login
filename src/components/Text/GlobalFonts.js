@@ -1,5 +1,3 @@
-import React from 'react'
-import styled from 'styled-components'
 import {createGlobalStyle} from 'styled-components'
 import theme from '../../assets/styles/theme'
 
@@ -13,5 +11,5 @@ for (let font of theme.fonts){
     `
 }
 const GlobalStyle = createGlobalStyle`${fonts}`
-console.log(fonts)
+// console.log(fonts)
 export default GlobalStyle

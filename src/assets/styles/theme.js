@@ -51,6 +51,11 @@ const theme = {
             name:"NotoSans-Regular",
             format:"ttf"
         },
+        {
+            style:"alert",
+            name:"NotoSans-SemiBold",
+            format:"ttf"
+        },
     ],
     fontScale:{
         base:2,

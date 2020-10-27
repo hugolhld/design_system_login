@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router,Switch,Route,Link, BrowserRouter} from "react-router-dom";
+import {BrowserRouter as Switch,Route, BrowserRouter, Link} from "react-router-dom";
 import Body from './components/Layout/Body';
 import SignIn from './pages/SignIn.js';
 import ForgotPassword from "./pages/ForgotPassword";
 import SignUp from "./pages/SignUp";
+import Footer from './components/Layout/Footer';
 import GlobalStyle from './components/Text/GlobalFonts'
 import './assets/styles/normalize.css'
-import Footer from './components/Layout/Footer';
 
 const App = () =>
 {
@@ -22,7 +22,7 @@ const App = () =>
         <Route path="/" component={SignIn} />
       </Switch>
       
-      <Footer/>
+      {/* <Footer/> */}
     </BrowserRouter>
   )
 }

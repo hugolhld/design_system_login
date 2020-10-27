@@ -1,44 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Select from 'react-select';
 import Wrapper from '../Layout/Wrapper';
-const groupDay = [
-]
+const groupDay = []
 const groupMonth = []
 const groupYear = []
 
-for(let i = 0; i < 31; i++)
+for(let i = 0; i < 32; i++)
 {
     groupDay.push({value : i, label: i},)
 }
-for(let i = 0; i < 12; i++)
+for(let i = 0; i < 13; i++)
 {
     groupMonth.push({value : i, label: i},)
 }
-for(let i = 1920; i < 2015; i++)
+for(let i = 1920; i < 2016; i++)
 {
     groupYear.push({value : i, label: i},)
 }
-
-const groupedOptionsDay = [
-    {
-        label: "Jour",
-        options: groupDay,
-    },
-]
-
-const groupedOptionsMonth = [
-    {
-        label: "Mois",
-        options: groupMonth,
-    },
-]
-
-const groupedOptionsYear = [
-    {
-        label: "Année",
-        options: groupYear,
-    }
-]
 
 const groupStyles = {
   display: 'flex',
@@ -60,7 +38,6 @@ const groupBadgeStyles = {
 
 const formatGroupLabel = data => (
   <div style={groupStyles}>
-    <span>{data.label}</span>
     <span style={groupBadgeStyles}>{data.options.length}</span>
   </div>
 );
@@ -77,13 +54,13 @@ const InputBirthday = () => (
         />
         <Select
         // defaultValue={groupMonth[5]}
-        options={groupedOptionsMonth}
+        options={groupMonth}
         formatGroupLabel={formatGroupLabel}
         placeholder="MM"
         />
         <Select
         // defaultValue={groupYear[55]}
-        options={groupedOptionsYear}
+        options={groupYear}
         formatGroupLabel={formatGroupLabel}
         placeholder="AAAA"
         />

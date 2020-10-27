@@ -1,5 +1,4 @@
-import React,{useEffect} from 'react'
-import theme from '../../assets/styles/theme'
+import React from 'react'
 
 function Body() {
     return (
