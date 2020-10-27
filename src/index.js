@@ -17,9 +17,9 @@ const App = () =>
       <GlobalStyle/>
 
       <Switch>
-        <Route path="/signup" component={SignUp} />
-        <Route path="/forgot-password" component={ForgotPassword} />
-        <Route path="/" component={SignIn} />
+        <Route path="https://hugolhld.github.io/signup" component={SignUp} />
+        <Route path="https://hugolhld.github.io/forgot-password" component={ForgotPassword} />
+        <Route path="https://hugolhld.github.io/" component={SignIn} />
       </Switch>
       
       {/* <Footer/> */}
