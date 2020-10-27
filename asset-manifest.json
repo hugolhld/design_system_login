@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/design_system_login/static/css/main.b8422fb6.chunk.css",
-    "main.js": "/design_system_login/static/js/main.840ead35.chunk.js",
-    "main.js.map": "/design_system_login/static/js/main.840ead35.chunk.js.map",
-    "runtime-main.js": "/design_system_login/static/js/runtime-main.f5652bdf.js",
-    "runtime-main.js.map": "/design_system_login/static/js/runtime-main.f5652bdf.js.map",
-    "static/js/2.6f759017.chunk.js": "/design_system_login/static/js/2.6f759017.chunk.js",
-    "static/js/2.6f759017.chunk.js.map": "/design_system_login/static/js/2.6f759017.chunk.js.map",
-    "index.html": "/design_system_login/index.html",
-    "precache-manifest.0e14c20d9cd3b53a4585c2ed5228d6e5.js": "/design_system_login/precache-manifest.0e14c20d9cd3b53a4585c2ed5228d6e5.js",
-    "service-worker.js": "/design_system_login/service-worker.js",
-    "static/css/main.b8422fb6.chunk.css.map": "/design_system_login/static/css/main.b8422fb6.chunk.css.map",
-    "static/js/2.6f759017.chunk.js.LICENSE.txt": "/design_system_login/static/js/2.6f759017.chunk.js.LICENSE.txt",
-    "static/media/Lato-Black.ttf": "/design_system_login/static/media/Lato-Black.e631d273.ttf",
-    "static/media/Lato-Medium.ttf": "/design_system_login/static/media/Lato-Medium.863b7dcd.ttf",
-    "static/media/Lato-Regular.ttf": "/design_system_login/static/media/Lato-Regular.2d36b1a9.ttf",
-    "static/media/NotoSans-Regular.ttf": "/design_system_login/static/media/NotoSans-Regular.5a87cce8.ttf",
-    "static/media/NotoSans-SemiBold.ttf": "/design_system_login/static/media/NotoSans-SemiBold.390771ca.ttf",
-    "static/media/closed_eye.svg": "/design_system_login/static/media/closed_eye.e596a399.svg",
-    "static/media/logo.svg": "/design_system_login/static/media/logo.f95067de.svg",
-    "static/media/open_eye.svg": "/design_system_login/static/media/open_eye.4a53137c.svg"
+    "main.css": "/design_/static/css/main.b8422fb6.chunk.css",
+    "main.js": "/design_/static/js/main.7430c843.chunk.js",
+    "main.js.map": "/design_/static/js/main.7430c843.chunk.js.map",
+    "runtime-main.js": "/design_/static/js/runtime-main.2eb93d8c.js",
+    "runtime-main.js.map": "/design_/static/js/runtime-main.2eb93d8c.js.map",
+    "static/js/2.235e6e04.chunk.js": "/design_/static/js/2.235e6e04.chunk.js",
+    "static/js/2.235e6e04.chunk.js.map": "/design_/static/js/2.235e6e04.chunk.js.map",
+    "index.html": "/design_/index.html",
+    "precache-manifest.4336bd2578df6f3f6efa5594d93bf9ef.js": "/design_/precache-manifest.4336bd2578df6f3f6efa5594d93bf9ef.js",
+    "service-worker.js": "/design_/service-worker.js",
+    "static/css/main.b8422fb6.chunk.css.map": "/design_/static/css/main.b8422fb6.chunk.css.map",
+    "static/js/2.235e6e04.chunk.js.LICENSE.txt": "/design_/static/js/2.235e6e04.chunk.js.LICENSE.txt",
+    "static/media/Lato-Black.ttf": "/design_/static/media/Lato-Black.e631d273.ttf",
+    "static/media/Lato-Medium.ttf": "/design_/static/media/Lato-Medium.863b7dcd.ttf",
+    "static/media/Lato-Regular.ttf": "/design_/static/media/Lato-Regular.2d36b1a9.ttf",
+    "static/media/NotoSans-Regular.ttf": "/design_/static/media/NotoSans-Regular.5a87cce8.ttf",
+    "static/media/NotoSans-SemiBold.ttf": "/design_/static/media/NotoSans-SemiBold.390771ca.ttf",
+    "static/media/closed_eye.svg": "/design_/static/media/closed_eye.e596a399.svg",
+    "static/media/logo.svg": "/design_/static/media/logo.f95067de.svg",
+    "static/media/open_eye.svg": "/design_/static/media/open_eye.4a53137c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f5652bdf.js",
-    "static/js/2.6f759017.chunk.js",
+    "static/js/runtime-main.2eb93d8c.js",
+    "static/js/2.235e6e04.chunk.js",
     "static/css/main.b8422fb6.chunk.css",
-    "static/js/main.840ead35.chunk.js"
+    "static/js/main.7430c843.chunk.js"
   ]
 }
