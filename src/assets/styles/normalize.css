@@ -35,6 +35,10 @@
     border-radius: 0 !important;
 }
 
+.css-2b097c-container:focus{
+    outline: none;
+}
+
 .fWQipr{
     margin: 0 !important;
 }
