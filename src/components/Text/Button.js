@@ -15,7 +15,8 @@ const Button = styled.a`
     padding: ${theme.spaceScale.scale[0]} ${theme.spaceScale.scale[3]};
     margin: 0 auto;
     transition: all ${theme.misc.hoverTransitionDelay};
-
+    
+    ${props => props.hover ? `
     &:hover{
         background:${theme.misc.textButtonColor};
         color:${theme.colors.blue[0]};
@@ -29,6 +30,7 @@ const Button = styled.a`
         transition: all ${theme.misc.hoverTransitionDelay};
         border:solid 2px ${theme.colors.blue[0]};
     }
+    ` : `` }
 
     ${props => props.large ? `
         margin-top : ${theme.spaceScale.scale[4]};
@@ -36,6 +38,17 @@ const Button = styled.a`
 
     ${props => props.small ? `
         margin-top : ${theme.spaceScale.scale[3]};
+    ` : `` }
+
+    ${props => props.eyeIconOpen ? `
+        background: none;
+        background-image : url(${theme.misc.eyeIconOpen});
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: ${theme.spaceScale.scale[0]} ${theme.spaceScale.scale[0]};
+        &:hover{
+            cursor: pointer;
+        }
     ` : `` }
 `
 

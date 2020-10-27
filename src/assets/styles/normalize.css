@@ -2,3 +2,35 @@
     margin:0;
     padding:0;
 }
+
+/* @font-face {
+    font-family: "Input";
+    src: url("../../../public/fonts/NotoSans-Regular.ttf") format("ttf");
+} */
+
+.css-6q0nyr-Svg{
+    fill: #00CEC9 !important;
+}
+
+.css-2b097c-container{
+    font-family: "input";
+    width: 30%;
+}
+
+.css-g1d714-ValueContainer{
+    padding: 0 !important;
+}
+
+.css-g1d714-ValueContainer{
+    justify-content: center;
+}
+
+.css-1okebmr-indicatorSeparator{
+    background: transparent !important;
+}
+
+.css-yk16xz-control{
+    border: none !important;
+    border-bottom: 1px solid #999999 !important;
+    border-radius: 0 !important;
+}

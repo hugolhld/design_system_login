@@ -10,12 +10,12 @@ import Logo from '../components/Misc/Logo'
 function ForgotPassword() {
     return (
         <Wrapper>
-            <Logo></Logo>
+            <Logo/>
             <Modal large>
                 <Title large>Mot de passe oublié</Title>
-                <ComonText>Veuillez entrer l’adresse mail avec laquelle vous avez créer votre compte. Un mail vous sera envoyer pour créer un nouveau mot de passe.</ComonText>
-                <Input type="text" placeholder="Entrez votre adresse mail" large></Input>
-                <Button href="#test" large>Envoyer</Button>
+                <ComonText large>Veuillez entrer l’adresse mail avec laquelle vous avez créer votre compte. Un mail vous sera envoyer pour créer un nouveau mot de passe.</ComonText>
+                <Input type="text" placeholder="Entrez votre adresse mail" large/>
+                <Button hover href="/" large>Envoyer</Button>
             </Modal>
         </Wrapper>
     )

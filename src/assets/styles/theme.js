@@ -33,7 +33,7 @@ const theme = {
             format:"ttf"
         },{
             style:"subtitle",
-            name:"Lato-Regular",
+            name:"NotoSans-Regular",
             format:"ttf"
         },
         {

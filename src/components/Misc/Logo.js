@@ -1,6 +1,7 @@
 import React from 'react'
 import theme from '../../assets/styles/theme'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 let StyledLogo = styled.img`
     margin: ${theme.spaceScale.scale[7]} 0;
@@ -8,7 +9,9 @@ let StyledLogo = styled.img`
 
 function Logo() {
     return (
-        <StyledLogo src={theme.misc.logo} alt="Logo"></StyledLogo>
+        <Link href="/">
+            <StyledLogo src={theme.misc.logo} alt="Logo"></StyledLogo>
+        </Link>
     )
 }
 
