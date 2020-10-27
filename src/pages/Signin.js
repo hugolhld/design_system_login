@@ -47,7 +47,7 @@ function SignIn() {
             </Modal>
             <Modal>
                 <Title large>Pas encore inscrit ?</Title>
-                <Button hover href="/signup">Créer un compte</Button>
+                <Button hover href="https://hugolhld.github.io/signup">Créer un compte</Button>
             </Modal>
         </Wrapper>
     )
