@@ -36,7 +36,7 @@
 }
 
 .css-2b097c-container:focus{
-    outline: none;
+    outline: none !important;
 }
 
 .fWQipr{

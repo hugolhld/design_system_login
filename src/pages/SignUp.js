@@ -11,25 +11,25 @@ import Alert from '../components/Text/AlertMessages'
 
 function SignUp() {
 
-    // function checkForm () {
-    //     const inputsText = document.querySelectorAll('.cdLhfg')
+    function checkForm () {
+        const inputsText = document.querySelectorAll('.cdLhfg')
 
-    //     for(const text of inputsText)
-    //     {
-    //         if(text.value.length < 4)
-    //         {
-    //             document.querySelector('.register_error').style.display = 'block'
-    //         }
-    //         else if (text.value.length < 6)
-    //         {
-    //             document.querySelector('.register_warning').style.display = 'block'
-    //         }
-    //         else
-    //         {
-    //             document.querySelector('.register_success').style.display = 'block'
-    //         }
-    //     }
-    // }
+        for(const text of inputsText)
+        {
+            if(text.value.length < 4)
+            {
+                document.querySelector('.register_error').style.display = 'block'
+            }
+            else if (text.value.length < 6)
+            {
+                document.querySelector('.register_warning').style.display = 'block'
+            }
+            else
+            {
+                document.querySelector('.register_success').style.display = 'block'
+            }
+        }
+    }
 
     return (
         <Wrapper>
@@ -47,7 +47,7 @@ function SignUp() {
                 <Subtitle large>Mot de passe</Subtitle>
                 <Input type="password" placeholder="Entrez votre mot de passe" large></Input>
                 <Input type="password" placeholder="Confirmez votre mot de passe" large></Input>
-                <Button hover href="/" /* onClick={checkForm} */ large>S'inscrire</Button>
+                <Button hover  onClick={checkForm} large>S'inscrire</Button>
             </Modal>
         </Wrapper>
     )
